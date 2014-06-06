@@ -6,13 +6,15 @@ GeoIP plugin for ninfo, see https://github.com/JustinAzoff/ninfo
 Configuration
 -------------
 
-```[plugin:geoip]
+```
+[plugin:geoip]
 path = /path/to/geolite
 ```
 
 For the city database:
 
-```[plugin:geoipcity]
+```
+[plugin:geoipcity]
 clone = geoip
 title = City GeoIP
 description = City Level GeoIP
