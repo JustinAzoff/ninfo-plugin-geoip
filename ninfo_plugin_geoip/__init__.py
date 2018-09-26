@@ -1,8 +1,6 @@
 from ninfo import PluginBase
 import maxminddb
 
-record_keys = ['city', 'region_name', 'region', 'area_code', 'time_zone', 'longitude', 'metro_code', 'country_code3', 'latitude', 'postal_code', 'dma_code', 'country_code', 'country_name']
-
 class geoip_plug(PluginBase):
     """This plugin returns geographic information on an IP"""
     name    =    'geoip'
