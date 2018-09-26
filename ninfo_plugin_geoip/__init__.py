@@ -17,6 +17,7 @@ class geoip_plug(PluginBase):
         record = self.g.get(ip)
         if record:
             record.setdefault('country', None)
+            record.setdefault('city', None)
             record.setdefault('autonomous_system_number', None)
         return record
 
